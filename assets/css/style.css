@@ -291,14 +291,15 @@ label {
 
 @media screen and (max-width: 980px) {
     .content {
-        max-width: 680px;
         min-width: 480px;
         margin-left: 100px;
+        margin-bottom: 50px;
     }
     .aboutme {
         width: 325px;
         margin-right: 50px;
         left: 0;
+        margin-bottom: 90px;
     }
     h1 {
         margin-left: 100px;
@@ -315,25 +316,38 @@ label {
         width: 300px;
     }
 
+    .email {
+        width: 60%;
+    }
+
+    input[type=text] {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .content {
-        max-width: 700px;
         min-width: 700px;
         margin-left: 5px;
     }
 
     .aboutme {
-        max-width: 700px;
         min-width: 700px;
-        margin-left: 5px;
+        left: 2%;
     }
     .connect {
-        max-width: 700px;
         min-width: 700px;
-        bottom: 15%;
+        bottom: 13%;
+        left: 2%;
         padding: 10px;
+    }
+    .portfoliofix {
+        min-width: 700px;
+        padding: 10px;
+        position: relative;
+        top: 865px;
+        margin-bottom: 70px;
+        margin-left: 5px;
     }
     .nav {
         right: 0;
@@ -353,6 +367,15 @@ label {
         padding: 5px;
         margin-top: 5px;
         
+    }
+
+    .email {
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    input[type=text] {
+        width: 90%;
     }
 }
 
@@ -376,20 +399,54 @@ label {
         }
 
         .aboutme {
-            max-width: 620px;
-            min-width: 620px;
+            min-width: 550px;
+            left: 6%;
+        }
+
+        .portmain {
+            min-width: 555px;
         }
 
         .content {
-            max-width: 620px;
             min-width: 620px;
             right: 1%;
         }
 
         .connect {
-            max-width: 620px;
-            min-width: 620px;
-            bottom: 10%;
+            min-width: 600px;
+            bottom: 5%;
         }
-        
+
+        .portfoliofixxs {
+            min-width: 555px;
+            padding: 10px;
+            position: relative;
+            top: 2285px;
+            margin-bottom: 70px;
+            margin-left: 25px;
+        }
+
+        .portimg2, .portimg4 {
+            margin-right: 35px;
+        }
+
+        .portimgs {
+            width: 500px;
+        }
+
+        .portimg1, .portimg3, .portimg5 {
+            left: 4%
+        }
+
+        .portlabel {
+            width: 76%;
+        }
+
+        .label1, .label3, .label5 {
+            left: 12%;
+        }
+
+        .label2, .label4{
+            right: 12%;
+        }
 }
