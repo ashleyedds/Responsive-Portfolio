@@ -380,6 +380,10 @@ label {
 }
 
     @media screen and (max-width: 640px) {
+        header {
+            position: static;
+        }
+        
         h1 {
             float: none;
             width: 100%;
@@ -408,6 +412,7 @@ label {
         }
 
         .content {
+            margin-top: 70px;
             min-width: 620px;
             right: 1%;
         }
